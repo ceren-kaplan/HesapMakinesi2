@@ -1,0 +1,67 @@
+#alan {
+    top: 40px;
+    width: 300px;
+    height: 250px;
+    padding: 2px;
+    background-color: #ECEFF1;
+    position: relative;
+    margin: auto;
+}
+
+#hesap_makinesi {
+    left: 18px;
+    top: 20px;
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.silme {
+    background-color: #E9967A;
+    border: solid 1px black;
+    text-align: center;
+    height: 30px;
+    width: 125px;
+}
+
+.sonuc {
+    border: solid 1px black;
+    text-align: center;
+    height: 30px;
+    width: 125px;
+    background-color: #7B68EE;
+}
+
+.isaret {
+    background-color: #A9A9A9;
+    text-align: center;
+    border: solid 1px black;
+    height: 30px;
+    width: 60px;
+}
+
+.geri {
+    background-color: #A9A9A9;
+    text-align: center;
+    border: solid 1px black;
+    height: 30px;
+    width: 60px;
+}
+
+.text {
+    background-color: #F5F5F5;
+    margin: 2px;
+    width: 251px;
+    height: 30px;
+    border: solid 1px black;
+}
+
+.sayi {
+    background-color: #F5F5F5;
+    border: solid 1px black;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+}
+
+
