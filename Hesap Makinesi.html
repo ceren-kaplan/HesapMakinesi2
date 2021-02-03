@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="alan">
+        <div id="hesap_makinesi">
+            <form name="gosterge">
+                <input class="text" type="text" name="sonuc" />
+            </form>
+
+            <table>
+                <tr>
+                    <td colspan="2"><input class="silme" type="button" value="C"/></td>
+                    <td><input class="geri" type="button" value="<"/></td>
+                    <td><input class="isaret" type="button" value="/" onclick="islem('/')" /></td>
+                </tr>
+
+                <tr>
+                    <td><input class="sayi" type="button" value="7"  onclick="islem(7)" /></td>
+                    <td><input class="sayi" type="button" value="8" onclick="islem(8)" /></td>
+                    <td><input class="sayi" type="button" value="9" onclick="islem(9)" /></td>
+                    <td><input class="isaret" type="button" value="*" onclick="islem('*')" /></td>
+                </tr>
+
+                <tr>
+                    <td><input class="sayi" type="button" value="4" onclick="islem(4)" /></td>
+                    <td><input class="sayi" type="button" value="5" onclick="islem(5)" /></td>
+                    <td><input class="sayi" type="button" value="6" onclick="islem(6)" /></td>
+                    <td><input class="isaret" type="button" value="-" onclick="islem('-')" /></td>
+                </tr>
+
+                <tr>
+                    <td><input class="sayi" type="button" value="1" onclick="islem(1)" /></td>
+                    <td><input class="sayi" type="button" value="2" onclick="islem(2)" /></td>
+                    <td><input class="sayi" type="button" value="3" onclick="islem(3)" /></td>
+                    <td><input class="isaret" type="button" value="+" onclick="islem('+')" /></td>
+                </tr>
+
+                <tr>
+                    <td><input class="sayi" type="button" value="0" onclick="islem(0)" /></td>
+                    <td><input class="sayi" type="button" value="." onclick="islem('.')" /></td>
+                    <td colspan="2"><input class="sonuc" type="button" value="=" /></td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
